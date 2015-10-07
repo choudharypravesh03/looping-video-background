@@ -1,6 +1,3 @@
 # looping-video-background
-Simple way to use video as background on webpage
+Simple way to use video as background on webpage using only CSS. 
 
-Want to have a video background to your website? 
-
-Here is the best way to do that using only CSS. 
