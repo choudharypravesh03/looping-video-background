@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Background Video</title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script src="frameworks/jquery/jquery.min.js"></script>
+        <script src="app.js"></script>
+        
+        <!--[if lt IE 9]>
+            <script>
+                document.createElement('video');
+            </script>
+        <![endif]-->
+        
+    </head>
+	  <body>
+         
+      <div>
+        <div class="main-article">
+              <article>
+                  <div class="above-video">
+                      <h2 class="middle-heading">Video Background</h2>
+                  </div>
+                  <div class="video-container">
+                      <video autoplay loop muted id="bgvid">
+                          <source src="https://s3.amazonaws.com/activelab/files/trailer.mp4"> //have your own video here
+                      </video>
+                  </div>
+              </article>
+          </div>
+    </body>
+</html>
